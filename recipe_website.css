@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow: none;
+    
+}
+.navcontainer{
+    width: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
+    min-height: 80px;
+    margin: 2px;
+    padding: 2px;
+ 
+}
+nav{
+    width: 100%;
+    overflow-x: none;
+}
+.Right{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.left:hover{
+    color: grey;
+    font-size: 2.3rem;
+}
+
+
+.navList{
+    font-size: 1.9em;
+    padding: 2px;
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.navlogo{
+    font-size: 2.8rem;
+    color:azure;
+}
+
+a{ 
+    text-decoration: none;
+    color: azure;
+  
+}
+
+
+
+footer{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% ); 
+     
+    text-align: center;
+    min-height: 40px; 
+      
+}
+p{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.ContainerBox{
+    position: relative;
+    background-color: gainsboro;
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.ingredients{
+    font-size: 20px;
+    color: blue;
+
+}
+
+.effect{
+    height: 155px;
+    width: 155px;
+    float: right;
+    border: 2px ;
+    border-radius: 15px;
+}
+
+.effect:hover{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    transition:all ease 3s;
+}
+
+#heading{
+    margin: 2px;
+    padding: 2px;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+#boxList{
+    list-style: none;
+}
+.recipe{
+    background-color: aliceblue;
+    width: 475px;
+    height: 270px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 26px;
+    overflow: auto;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px black;
+} 
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
